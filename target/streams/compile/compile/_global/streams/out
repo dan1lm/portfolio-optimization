@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E164] Declaration Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/Main.scala:2:6 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m2 |[0m  [33mdef[0m [36mmain[0m([36margs[0m: [35mArray[0m[[35mString[0m]) = {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m      ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0merror overriding [33mmethod[0m [35mmain[0m in [33mtrait[0m [35mApp[0m of type (args: Array[String]): Unit;[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m  [33mmethod[0m [35mmain[0m of type (args: Array[String]): Unit cannot override final member [33mmethod[0m [35mmain[0m in [33mtrait[0m [35mApp[0m[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
