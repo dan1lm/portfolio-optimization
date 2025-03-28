@@ -1,5 +1,6 @@
 package models
 
+import models.Asset
 import breeze.linalg.{DenseVector, sum}
 
 /**
@@ -15,8 +16,7 @@ case class Portfolio(
                       risk: Double
                     ):
   /**
-   * Calculates the Sharpe ratio of the portfolio
-   * Assumes a risk-free rate of 0 for simplicity
+   * Sharpe ratio
    *
    * @return The Sharpe ratio
    */
@@ -44,11 +44,11 @@ object Portfolio:
    * @param risk Portfolio risk
    * @return A new Portfolio instance
    */
-  def fromVector(
-                  weightVector: DenseVector[Double],
-                  assets: Seq[Asset],
-                  expectedReturn: Double,
-                  risk: Double
-                ): Portfolio =
-    val weights = weightVector.toArray.zip(assets.map(_.symbol)).toMap
+  def fromDenseVector(
+                       weightVector: DenseVector[Double],
+                       assets: Seq[Asset],
+                       expectedReturn: Double,
+                       risk: Double
+                     ): Portfolio =
+    val weights = assets.map(_.symbol).zip(weightVector.toArray).toMap
     Portfolio(weights, expectedReturn, risk)
