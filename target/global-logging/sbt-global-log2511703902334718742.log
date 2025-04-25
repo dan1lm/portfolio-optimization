@@ -1,0 +1,455 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(a2a0dff2-7230-4054-955c-cb6be2c4ff8d), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 7 Scala sources to /Users/danilmerinov/Desktop/github/portfolio-optimization/target/scala-3.0.0/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading Typeable$package$,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file scala/reflect/Typeable$package.class is broken, reading aborted with class dotty.tools.tasty.UnpickleException[0m
+[0m[[0m[31merror[0m] [0m[0mTASTy signature has wrong version.[0m
+[0m[[0m[31merror[0m] [0m[0m expected: {majorVersion: 28, minorVersion: 0}[0m
+[0m[[0m[31merror[0m] [0m[0m found   : {majorVersion: 28, minorVersion: 2}[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThis TASTy file was produced by a more recent, forwards incompatible release.[0m
+[0m[[0m[31merror[0m] [0m[0mTo read this TASTy file, please upgrade your tooling.[0m
+[0m[[0m[31merror[0m] [0m[0mThe TASTy file was produced by Scala 3.2.2-bin-nonbootstrapped.[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading $throws$package$,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file scala/runtime/$throws$package.class is broken, reading aborted with class dotty.tools.tasty.UnpickleException[0m
+[0m[[0m[31merror[0m] [0m[0mTASTy signature has wrong version.[0m
+[0m[[0m[31merror[0m] [0m[0m expected: {majorVersion: 28, minorVersion: 0}[0m
+[0m[[0m[31merror[0m] [0m[0m found   : {majorVersion: 28, minorVersion: 2}[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThis TASTy file was produced by a more recent, forwards incompatible release.[0m
+[0m[[0m[31merror[0m] [0m[0mTo read this TASTy file, please upgrade your tooling.[0m
+[0m[[0m[31merror[0m] [0m[0mThe TASTy file was produced by Scala 3.2.2-bin-nonbootstrapped.[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading language$,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file scala/runtime/stdLibPatches/language.class is broken, reading aborted with class dotty.tools.tasty.UnpickleException[0m
+[0m[[0m[31merror[0m] [0m[0mTASTy signature has wrong version.[0m
+[0m[[0m[31merror[0m] [0m[0m expected: {majorVersion: 28, minorVersion: 0}[0m
+[0m[[0m[31merror[0m] [0m[0m found   : {majorVersion: 28, minorVersion: 2}[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThis TASTy file was produced by a more recent, forwards incompatible release.[0m
+[0m[[0m[31merror[0m] [0m[0mTo read this TASTy file, please upgrade your tooling.[0m
+[0m[[0m[31merror[0m] [0m[0mThe TASTy file was produced by Scala 3.2.2-bin-nonbootstrapped.[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading package$package$,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file scala/compiletime/package$package.class is broken, reading aborted with class dotty.tools.tasty.UnpickleException[0m
+[0m[[0m[31merror[0m] [0m[0mTASTy signature has wrong version.[0m
+[0m[[0m[31merror[0m] [0m[0m expected: {majorVersion: 28, minorVersion: 0}[0m
+[0m[[0m[31merror[0m] [0m[0m found   : {majorVersion: 28, minorVersion: 2}[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThis TASTy file was produced by a more recent, forwards incompatible release.[0m
+[0m[[0m[31merror[0m] [0m[0mTo read this TASTy file, please upgrade your tooling.[0m
+[0m[[0m[31merror[0m] [0m[0mThe TASTy file was produced by Scala 3.2.2-bin-nonbootstrapped.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/Main.scala:8:0 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m8 |[0m@main[0m
+[0m[[0m[31merror[0m] [0m[0m  |[31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m  |[33mpackage[0m [35mscala.compiletime[0m does not have a member method summonFrom[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading Predef$,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file scala/runtime/stdLibPatches/Predef.class is broken, reading aborted with class dotty.tools.tasty.UnpickleException[0m
+[0m[[0m[31merror[0m] [0m[0mTASTy signature has wrong version.[0m
+[0m[[0m[31merror[0m] [0m[0m expected: {majorVersion: 28, minorVersion: 0}[0m
+[0m[[0m[31merror[0m] [0m[0m found   : {majorVersion: 28, minorVersion: 2}[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThis TASTy file was produced by a more recent, forwards incompatible release.[0m
+[0m[[0m[31merror[0m] [0m[0mTo read this TASTy file, please upgrade your tooling.[0m
+[0m[[0m[31merror[0m] [0m[0mThe TASTy file was produced by Scala 3.2.2-bin-nonbootstrapped.[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading main,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file scala/main.class is broken, reading aborted with class dotty.tools.tasty.UnpickleException[0m
+[0m[[0m[31merror[0m] [0m[0mTASTy signature has wrong version.[0m
+[0m[[0m[31merror[0m] [0m[0m expected: {majorVersion: 28, minorVersion: 0}[0m
+[0m[[0m[31merror[0m] [0m[0m found   : {majorVersion: 28, minorVersion: 2}[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThis TASTy file was produced by a more recent, forwards incompatible release.[0m
+[0m[[0m[31merror[0m] [0m[0mTo read this TASTy file, please upgrade your tooling.[0m
+[0m[[0m[31merror[0m] [0m[0mThe TASTy file was produced by Scala 3.2.2-bin-nonbootstrapped.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/Main.scala:8:1 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m8 |[0m@main[0m
+[0m[[0m[31merror[0m] [0m[0m  | [31m^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m  | Not found: type main[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/Main.scala:9:4 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m9 |[0m[33mdef[0m [36mmain[0m(): [35mUnit[0m =[0m
+[0m[[0m[31merror[0m] [0m[0m  |    [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m  |    [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/Main.scala:76:4 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m76 |[0m[33mdef[0m [36mcreateSampleData[0m(): [35mUnit[0m =[0m
+[0m[[0m[31merror[0m] [0m[0m   |    [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |    [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/data/DataLoader.scala:21:2 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m21 |[0m  [33mdef[0m [36mloadMarketData[0m([36mfilepath[0m: [35mString[0m): ([35mSeq[Asset][0m, [35mDenseMatrix[Double][0m) =[0m
+[0m[[0m[31merror[0m] [0m[0m   |  [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |  [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/data/DataLoader.scala:14:6 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m14 |[0m[33mclass[0m [35mDataLoader[0m:[0m
+[0m[[0m[31merror[0m] [0m[0m   |      [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |      [33mpackage[0m [35mscala.compiletime[0m does not have a member method summonFrom[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading IArray$package$,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file scala/IArray$package.class is broken, reading aborted with class dotty.tools.tasty.UnpickleException[0m
+[0m[[0m[31merror[0m] [0m[0mTASTy signature has wrong version.[0m
+[0m[[0m[31merror[0m] [0m[0m expected: {majorVersion: 28, minorVersion: 0}[0m
+[0m[[0m[31merror[0m] [0m[0m found   : {majorVersion: 28, minorVersion: 2}[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThis TASTy file was produced by a more recent, forwards incompatible release.[0m
+[0m[[0m[31merror[0m] [0m[0mTo read this TASTy file, please upgrade your tooling.[0m
+[0m[[0m[31merror[0m] [0m[0mThe TASTy file was produced by Scala 3.2.2-bin-nonbootstrapped.[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading Tuple$package$,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file scala/Tuple$package.class is broken, reading aborted with class dotty.tools.tasty.UnpickleException[0m
+[0m[[0m[31merror[0m] [0m[0mTASTy signature has wrong version.[0m
+[0m[[0m[31merror[0m] [0m[0m expected: {majorVersion: 28, minorVersion: 0}[0m
+[0m[[0m[31merror[0m] [0m[0m found   : {majorVersion: 28, minorVersion: 2}[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThis TASTy file was produced by a more recent, forwards incompatible release.[0m
+[0m[[0m[31merror[0m] [0m[0mTo read this TASTy file, please upgrade your tooling.[0m
+[0m[[0m[31merror[0m] [0m[0mThe TASTy file was produced by Scala 3.2.2-bin-nonbootstrapped.[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading *:,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file scala/$times$colon.class is broken, reading aborted with class dotty.tools.tasty.UnpickleException[0m
+[0m[[0m[31merror[0m] [0m[0mTASTy signature has wrong version.[0m
+[0m[[0m[31merror[0m] [0m[0m expected: {majorVersion: 28, minorVersion: 0}[0m
+[0m[[0m[31merror[0m] [0m[0m found   : {majorVersion: 28, minorVersion: 2}[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThis TASTy file was produced by a more recent, forwards incompatible release.[0m
+[0m[[0m[31merror[0m] [0m[0mTo read this TASTy file, please upgrade your tooling.[0m
+[0m[[0m[31merror[0m] [0m[0mThe TASTy file was produced by Scala 3.2.2-bin-nonbootstrapped.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/data/DataLoader.scala:21:6 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m21 |[0m  [33mdef[0m [36mloadMarketData[0m([36mfilepath[0m: [35mString[0m): ([35mSeq[Asset][0m, [35mDenseMatrix[Double][0m) =[0m
+[0m[[0m[31merror[0m] [0m[0m   |      [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/data/DataLoader.scala:78:6 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m78 |[0m  [33mdef[0m [36mcalculateStatistics[0m([0m
+[0m[[0m[31merror[0m] [0m[0m   |      [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/models/Asset.scala:13:16 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m13 |[0m[33mcase class[0m [35mAsset[0m([0m
+[0m[[0m[31merror[0m] [0m[0m   |                [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/models/Asset.scala:13:11 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m13 |[0m[33mcase class[0m [35mAsset[0m([0m
+[0m[[0m[31merror[0m] [0m[0m   |           [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |      [33mpackage[0m [35mscala.compiletime[0m does not have a member method summonFrom[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/models/Asset.scala:26:6 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m26 |[0m  [33mdef[0m [36misValid[0m: [35mBoolean[0m = !expectedReturn.isNaN && !expectedReturn.isInfinite[0m
+[0m[[0m[31merror[0m] [0m[0m   |      [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/models/Asset.scala:33:15 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m33 |[0m  [33moverride[0m [33mdef[0m toString: String =[0m
+[0m[[0m[31merror[0m] [0m[0m   |               [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/models/Asset.scala:13:0 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m13 |[0m[33mcase class[0m [35mAsset[0m([0m
+[0m[[0m[31merror[0m] [0m[0m   |[31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |[33mpackage[0m [35mscala.compiletime[0m does not have a member method summonFrom[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/models/Asset.scala:14:32 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m14 |[0m                  symbol: [35mString,[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/models/Asset.scala:15:30 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m15 |[0m                  name: [35mString,[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                              [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/models/Asset.scala:16:40 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m16 |[0m                  expectedReturn: [35mDouble,[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                        [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/models/Asset.scala:17:32 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m17 |[0m                  sector: [35mString,[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/models/Asset.scala:18:40 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m18 |[0m                  region: [35mOption[String][0m = None,[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                        [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/models/Asset.scala:19:44 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m19 |[0m                  assetClass: [35mOption[String][0m = Some([31m"Equity"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                            [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/models/Asset.scala:14:26 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m14 |[0m                  symbol: [35mString,[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                          [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/models/Asset.scala:15:24 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m15 |[0m                  name: [35mString,[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                        [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/models/Asset.scala:16:34 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m16 |[0m                  expectedReturn: [35mDouble,[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                  [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/models/Asset.scala:17:26 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m17 |[0m                  sector: [35mString,[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                          [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/models/Asset.scala:18:26 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m18 |[0m                  region: [35mOption[String][0m = None,[0m
+[0m[[0m[31merror[0m] [0m[0m   |                          [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/models/Asset.scala:19:30 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m19 |[0m                  assetClass: [35mOption[String][0m = Some([31m"Equity"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                              [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/models/Asset.scala:37:0 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m37 |[0m[33mobject[0m [35mAsset[0m:[0m
+[0m[[0m[31merror[0m] [0m[0m   |[31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |[33mpackage[0m [35mscala.compiletime[0m does not have a member method summonFrom[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/models/Asset.scala:46:2 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m46 |[0m  [33mdef[0m [36mapply[0m([36msymbol[0m: [35mString[0m, [36mexpectedReturn[0m: [35mDouble[0m, [36msector[0m: [35mString[0m): [35mAsset[0m =[0m
+[0m[[0m[31merror[0m] [0m[0m   |  [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |  [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/models/Asset.scala:37:7 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m37 |[0m[33mobject[0m [35mAsset[0m:[0m
+[0m[[0m[31merror[0m] [0m[0m   |       [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |      [33mpackage[0m [35mscala.compiletime[0m does not have a member method summonFrom[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/models/Asset.scala:19:61 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m19 |[0m                  assetClass: [35mOption[String][0m = Some([31m"Equity"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                             [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/models/Asset.scala:18:43 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m18 |[0m                  region: [35mOption[String][0m = None,[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                           [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/models/Asset.scala:19:51 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m19 |[0m                  assetClass: [35mOption[String][0m = Some([31m"Equity"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                   [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |      [33mpackage[0m [35mscala.compiletime[0m does not have a member method summonFrom[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/models/Asset.scala:19:47 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m19 |[0m                  assetClass: [35mOption[String][0m = Some([31m"Equity"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                               [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/models/Asset.scala:46:6 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m46 |[0m  [33mdef[0m [36mapply[0m([36msymbol[0m: [35mString[0m, [36mexpectedReturn[0m: [35mDouble[0m, [36msector[0m: [35mString[0m): [35mAsset[0m =[0m
+[0m[[0m[31merror[0m] [0m[0m   |      [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/models/Asset.scala:55:6 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m55 |[0m  [33mdef[0m [36munapply[0m([36masset[0m: [35mAsset[0m): [35mOption[(String, Double)][0m =[0m
+[0m[[0m[31merror[0m] [0m[0m   |      [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/models/Portfolio.scala:13:20 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m13 |[0m[33mcase class[0m [35mPortfolio[0m([0m
+[0m[[0m[31merror[0m] [0m[0m   |                    [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/models/Portfolio.scala:13:11 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m13 |[0m[33mcase class[0m [35mPortfolio[0m([0m
+[0m[[0m[31merror[0m] [0m[0m   |           [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |      [33mpackage[0m [35mscala.compiletime[0m does not have a member method summonFrom[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/models/Portfolio.scala:23:6 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m23 |[0m  [33mdef[0m [36msharpeRatio[0m: [35mDouble[0m = expectedReturn / risk[0m
+[0m[[0m[31merror[0m] [0m[0m   |      [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/models/Portfolio.scala:30:6 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m30 |[0m  [33mdef[0m [36misValid[0m: [35mBoolean[0m =[0m
+[0m[[0m[31merror[0m] [0m[0m   |      [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/models/Portfolio.scala:13:0 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m13 |[0m[33mcase class[0m [35mPortfolio[0m([0m
+[0m[[0m[31merror[0m] [0m[0m   |[31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |[33mpackage[0m [35mscala.compiletime[0m does not have a member method summonFrom[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/models/Portfolio.scala:14:50 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m14 |[0m                      weights: [35mMap[String, Double],[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                  [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/models/Portfolio.scala:15:44 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m15 |[0m                      expectedReturn: [35mDouble,[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                            [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/models/Portfolio.scala:16:34 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m16 |[0m                      risk: [35mDouble[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                  [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/models/Portfolio.scala:14:31 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m14 |[0m                      weights: [35mMap[String, Double],[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                               [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/models/Portfolio.scala:15:38 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m15 |[0m                      expectedReturn: [35mDouble,[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                      [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/models/Portfolio.scala:16:28 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m16 |[0m                      risk: [35mDouble[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                            [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/models/Portfolio.scala:37:0 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m37 |[0m[33mobject[0m [35mPortfolio[0m:[0m
+[0m[[0m[31merror[0m] [0m[0m   |[31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |[33mpackage[0m [35mscala.compiletime[0m does not have a member method summonFrom[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/models/Portfolio.scala:47:2 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m47 |[0m  [33mdef[0m [36mfromDenseVector[0m([0m
+[0m[[0m[31merror[0m] [0m[0m   |  [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |  [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/models/Portfolio.scala:37:7 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m37 |[0m[33mobject[0m [35mPortfolio[0m:[0m
+[0m[[0m[31merror[0m] [0m[0m   |       [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |      [33mpackage[0m [35mscala.compiletime[0m does not have a member method summonFrom[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/models/Portfolio.scala:47:6 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m47 |[0m  [33mdef[0m [36mfromDenseVector[0m([0m
+[0m[[0m[31merror[0m] [0m[0m   |      [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/optimization/Constraint.scala:15:2 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m15 |[0m  [33mdef[0m [36misSatisfied[0m([36mweights[0m: [35mDenseVector[Double][0m): [35mBoolean[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |  [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |  [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/optimization/Constraint.scala:15:6 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m15 |[0m  [33mdef[0m [36misSatisfied[0m([36mweights[0m: [35mDenseVector[Double][0m): [35mBoolean[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |      [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/optimization/Constraint.scala:22:30 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m22 |[0m[33mcase class[0m [35mMinWeightConstraint[0m([36mminWeight[0m: [35mDouble[0m) [33mextends[0m [35mConstraint[0m:[0m
+[0m[[0m[31merror[0m] [0m[0m   |                              [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/optimization/Constraint.scala:22:11 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m22 |[0m[33mcase class[0m [35mMinWeightConstraint[0m([36mminWeight[0m: [35mDouble[0m) [33mextends[0m [35mConstraint[0m:[0m
+[0m[[0m[31merror[0m] [0m[0m   |           [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |      [33mpackage[0m [35mscala.compiletime[0m does not have a member method summonFrom[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/optimization/Constraint.scala:23:15 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m23 |[0m  [33moverride[0m [33mdef[0m isSatisfied(weights: DenseVector[Double]): Boolean =[0m
+[0m[[0m[31merror[0m] [0m[0m   |               [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/optimization/Constraint.scala:22:0 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m22 |[0m[33mcase class[0m [35mMinWeightConstraint[0m([36mminWeight[0m: [35mDouble[0m) [33mextends[0m [35mConstraint[0m:[0m
+[0m[[0m[31merror[0m] [0m[0m   |[31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |[33mpackage[0m [35mscala.compiletime[0m does not have a member method summonFrom[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/optimization/Constraint.scala:22:48 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m22 |[0m[33mcase class[0m [35mMinWeightConstraint[0m([36mminWeight[0m: [35mDouble[0m) [33mextends[0m [35mConstraint[0m:[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/optimization/Constraint.scala:22:42 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m22 |[0m[33mcase class[0m [35mMinWeightConstraint[0m([36mminWeight[0m: [35mDouble[0m) [33mextends[0m [35mConstraint[0m:[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                          [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/optimization/Constraint.scala:31:30 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m31 |[0m[33mcase class[0m [35mMaxWeightConstraint[0m([36mmaxWeight[0m: [35mDouble[0m) [33mextends[0m [35mConstraint[0m:[0m
+[0m[[0m[31merror[0m] [0m[0m   |                              [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/optimization/Constraint.scala:31:11 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m31 |[0m[33mcase class[0m [35mMaxWeightConstraint[0m([36mmaxWeight[0m: [35mDouble[0m) [33mextends[0m [35mConstraint[0m:[0m
+[0m[[0m[31merror[0m] [0m[0m   |           [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |      [33mpackage[0m [35mscala.compiletime[0m does not have a member method summonFrom[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/optimization/Constraint.scala:32:15 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m32 |[0m  [33moverride[0m [33mdef[0m isSatisfied(weights: DenseVector[Double]): Boolean =[0m
+[0m[[0m[31merror[0m] [0m[0m   |               [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/optimization/Constraint.scala:31:0 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m31 |[0m[33mcase class[0m [35mMaxWeightConstraint[0m([36mmaxWeight[0m: [35mDouble[0m) [33mextends[0m [35mConstraint[0m:[0m
+[0m[[0m[31merror[0m] [0m[0m   |[31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |[33mpackage[0m [35mscala.compiletime[0m does not have a member method summonFrom[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/optimization/Constraint.scala:31:48 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m31 |[0m[33mcase class[0m [35mMaxWeightConstraint[0m([36mmaxWeight[0m: [35mDouble[0m) [33mextends[0m [35mConstraint[0m:[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/optimization/Constraint.scala:31:42 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m31 |[0m[33mcase class[0m [35mMaxWeightConstraint[0m([36mmaxWeight[0m: [35mDouble[0m) [33mextends[0m [35mConstraint[0m:[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                          [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/optimization/Constraint.scala:38:29 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m38 |[0m[33mcase class[0m [35mSumToOneConstraint[0m() [33mextends[0m [35mConstraint[0m:[0m
+[0m[[0m[31merror[0m] [0m[0m   |                             [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/optimization/Constraint.scala:38:11 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m38 |[0m[33mcase class[0m [35mSumToOneConstraint[0m() [33mextends[0m [35mConstraint[0m:[0m
+[0m[[0m[31merror[0m] [0m[0m   |           [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |      [33mpackage[0m [35mscala.compiletime[0m does not have a member method summonFrom[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/optimization/Constraint.scala:39:15 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m39 |[0m  [33moverride[0m [33mdef[0m isSatisfied(weights: DenseVector[Double]): Boolean =[0m
+[0m[[0m[31merror[0m] [0m[0m   |               [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/optimization/Constraint.scala:38:0 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m38 |[0m[33mcase class[0m [35mSumToOneConstraint[0m() [33mextends[0m [35mConstraint[0m:[0m
+[0m[[0m[31merror[0m] [0m[0m   |[31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |[33mpackage[0m [35mscala.compiletime[0m does not have a member method summonFrom[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/optimization/Constraint.scala:49:27 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m49 |[0m[33mcase class[0m [35mSectorConstraint[0m([0m
+[0m[[0m[31merror[0m] [0m[0m   |                           [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/optimization/Constraint.scala:49:11 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m49 |[0m[33mcase class[0m [35mSectorConstraint[0m([0m
+[0m[[0m[31merror[0m] [0m[0m   |           [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |      [33mpackage[0m [35mscala.compiletime[0m does not have a member method summonFrom[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/optimization/Constraint.scala:53:15 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m53 |[0m  [33moverride[0m [33mdef[0m isSatisfied(weights: DenseVector[Double]): Boolean =[0m
+[0m[[0m[31merror[0m] [0m[0m   |               [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/optimization/Constraint.scala:49:0 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m49 |[0m[33mcase class[0m [35mSectorConstraint[0m([0m
+[0m[[0m[31merror[0m] [0m[0m   |[31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |[33mpackage[0m [35mscala.compiletime[0m does not have a member method summonFrom[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/optimization/Constraint.scala:50:59 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m50 |[0m                             assetSectors: [35mMap[Int, String],[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                           [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/optimization/Constraint.scala:51:72 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m51 |[0m                             sectorLimits: [35mMap[String, (Double, Double)][0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                                        [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/optimization/Constraint.scala:50:43 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m50 |[0m                             assetSectors: [35mMap[Int, String],[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                           [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/optimization/Constraint.scala:51:43 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m51 |[0m                             sectorLimits: [35mMap[String, (Double, Double)][0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                           [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/optimization/Constraint.scala:73:24 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m73 |[0m[33mcase class[0m [35mConstraintSet[0m([36mconstraints[0m: [35mList[Constraint][0m):[0m
+[0m[[0m[31merror[0m] [0m[0m   |                        [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/optimization/Constraint.scala:73:11 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m73 |[0m[33mcase class[0m [35mConstraintSet[0m([36mconstraints[0m: [35mList[Constraint][0m):[0m
+[0m[[0m[31merror[0m] [0m[0m   |           [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |      [33mpackage[0m [35mscala.compiletime[0m does not have a member method summonFrom[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/optimization/Constraint.scala:80:6 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m80 |[0m  [33mdef[0m [36mareAllSatisfied[0m([36mweights[0m: [35mDenseVector[Double][0m): [35mBoolean[0m =[0m
+[0m[[0m[31merror[0m] [0m[0m   |      [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/optimization/Constraint.scala:73:0 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m73 |[0m[33mcase class[0m [35mConstraintSet[0m([36mconstraints[0m: [35mList[Constraint][0m):[0m
+[0m[[0m[31merror[0m] [0m[0m   |[31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |[33mpackage[0m [35mscala.compiletime[0m does not have a member method summonFrom[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/optimization/Constraint.scala:73:54 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m73 |[0m[33mcase class[0m [35mConstraintSet[0m([36mconstraints[0m: [35mList[Constraint][0m):[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                      [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/optimization/Constraint.scala:73:38 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m73 |[0m[33mcase class[0m [35mConstraintSet[0m([36mconstraints[0m: [35mList[Constraint][0m):[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                      [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/optimization/PortfolioOptimizer.scala:16:24 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m16 |[0m[33mclass[0m [35mPortfolioOptimizer[0m([0m
+[0m[[0m[31merror[0m] [0m[0m   |                        [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/optimization/PortfolioOptimizer.scala:16:6 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m16 |[0m[33mclass[0m [35mPortfolioOptimizer[0m([0m
+[0m[[0m[31merror[0m] [0m[0m   |      [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |      [33mpackage[0m [35mscala.compiletime[0m does not have a member method summonFrom[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/optimization/PortfolioOptimizer.scala:30:6 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m30 |[0m  [33mdef[0m [36mefficientPortfolio[0m([0m
+[0m[[0m[31merror[0m] [0m[0m   |      [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/optimization/PortfolioOptimizer.scala:32:63 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m32 |[0m                          constraints: [35mOption[ConstraintSet][0m = None[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                               [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/optimization/PortfolioOptimizer.scala:88:6 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m88 |[0m  [33mdef[0m [36mgenerateEfficientFrontier[0m([36mpoints[0m: [35mInt[0m): [35mSeq[Portfolio][0m =[0m
+[0m[[0m[31merror[0m] [0m[0m   |      [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/optimization/PortfolioOptimizer.scala:107:6 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m107 |[0m  [33mdef[0m [36mminimumVariancePortfolio[0m(): [35mPortfolio[0m =[0m
+[0m[[0m[31merror[0m] [0m[0m    |      [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |   [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/optimization/PortfolioOptimizer.scala:117:6 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m117 |[0m  [33mdef[0m [36mmaximumSharpeRatioPortfolio[0m([36mriskFreeRate[0m: [35mDouble[0m = [31m0.0[0m): [35mPortfolio[0m =[0m
+[0m[[0m[31merror[0m] [0m[0m    |      [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |   [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/optimization/PortfolioOptimizer.scala:117:57 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m117 |[0m  [33mdef[0m [36mmaximumSharpeRatioPortfolio[0m([36mriskFreeRate[0m: [35mDouble[0m = [31m0.0[0m): [35mPortfolio[0m =[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                                         [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |   [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/visualization/PortfolioVisualizer.scala:15:25 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m15 |[0m[33mclass[0m [35mPortfolioVisualizer[0m([36moptimizer[0m: [35mPortfolioOptimizer[0m):[0m
+[0m[[0m[31merror[0m] [0m[0m   |                         [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mpackage[0m [35mscala.compiletime[0m does not have a member method erasedValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/danilmerinov/Desktop/github/portfolio-optimization/src/main/scala/visualization/PortfolioVisualizer.scala:15:6 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m15 |[0m[33mclass[0m [35mPortfolioVisualizer[0m([36moptimizer[0m: [35mPortfolioOptimizer[0m):[0m
+[0m[[0m[31merror[0m] [0m[0m   |      [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |      [33mpackage[0m [35mscala.compiletime[0m does not have a member method summonFrom[0m
+[0m[[0m[31merror[0m] [0m[0m108 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m108 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Apr 3, 2025 10:24:02 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m

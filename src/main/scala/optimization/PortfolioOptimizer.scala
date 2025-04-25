@@ -4,14 +4,11 @@ import breeze.linalg.{DenseVector, DenseMatrix, sum}
 import breeze.optimize.{DiffFunction, LBFGSB}
 import models.{Asset, Portfolio}
 
-import breeze.linalg.operators.{OpMulScalar, BinaryRegistry}
-import breeze.math.Semiring
-
 /**
- * Core portfolio optimization engine
+ * Core portfolio optimization
  *
- * @param assets List of assets to consider
- * @param covarianceMatrix Covariance matrix of asset returns
+ * @param assets List of assets
+ * @param covarianceMatrix Covariance matrix
  */
 class PortfolioOptimizer(
                           val assets: Seq[Asset],
@@ -21,7 +18,7 @@ class PortfolioOptimizer(
   val n: Int = assets.length
 
   /**
-   * Find the optimal portfolio for a given risk aversion level
+   * Find the optimal portfolio for a given risk aversion
    *
    * @param riskAversion Risk aversion parameter (higher values prefer lower risk)
    * @param constraints Optional set of constraints
@@ -34,9 +31,8 @@ class PortfolioOptimizer(
     // Define objective function (mean-variance utility)
     def objectiveFunction(weights: DenseVector[Double]): Double =
       val expectedReturns = DenseVector(assets.map(_.expectedReturn).toArray)
-      // Explicitly use dot product
-      val portfolioReturn = (weights.t * expectedReturns)
-      val portfolioVariance = (weights.t * covarianceMatrix * weights)
+      val portfolioReturn = weights.t * expectedReturns
+      val portfolioVariance = weights.t * covarianceMatrix * weights
 
       // Mean-variance utility: return - (riskAversion/2) * variance
       portfolioReturn - (riskAversion / 2) * portfolioVariance
@@ -46,19 +42,24 @@ class PortfolioOptimizer(
       val expectedReturns = DenseVector(assets.map(_.expectedReturn).toArray)
       val portfolioRiskGradient = covarianceMatrix * weights
 
-      expectedReturns - (portfolioRiskGradient * DenseVector.fill(portfolioRiskGradient.length)(riskAversion))
+      // Create a new vector where each element is scaled by riskAversion
+      val scaledGradient = DenseVector.tabulate(portfolioRiskGradient.length) { i =>
+        riskAversion * portfolioRiskGradient(i)
+      }
 
-    // Set up optimization problem
+      expectedReturns - scaledGradient
+
+    // Set up optimization problem (negate for minimization)
     val f = new DiffFunction[DenseVector[Double]]:
       def calculate(weights: DenseVector[Double]) =
         (-objectiveFunction(weights), -gradient(weights))
 
-    // Initial weights (equal allocation)
+    // Initial weights with equal allocation
     val initialWeights = DenseVector.fill(n){1.0 / n}
 
-    // Apply constraints
+    // Apply constraints with bounds
     val optimizer = new LBFGSB(
-      DenseVector.fill(n)(0.0),  // Lower bounds (no short selling)
+      DenseVector.fill(n)(0.0),  // Lower bounds
       DenseVector.fill(n)(1.0),  // Upper bounds
       maxIter = 100,
       m = 5
@@ -67,20 +68,21 @@ class PortfolioOptimizer(
     // Solve the optimization problem
     val optimalWeights = optimizer.minimize(f, initialWeights)
 
-    // Weights normalization
+    // Weights normalization to ensure they sum to 1.0
     val weightSum = sum(optimalWeights)
-    val normalizedWeights = DenseVector(optimalWeights.toArray.map(_ / weightSum))
+    val normalizedWeights = optimalWeights / weightSum
 
     // Calculate portfolio metrics
     val expectedReturns = DenseVector(assets.map(_.expectedReturn).toArray)
     val expectedReturn = (normalizedWeights.t * expectedReturns).toDouble
     val risk = math.sqrt((normalizedWeights.t * covarianceMatrix * normalizedWeights).toDouble)
 
-    // Return the portfolio
-    Portfolio.fromDenseVector(normalizedWeights, assets, expectedReturn, risk)
+    // Create portfolio with the optimal weights
+    val weightMap = assets.map(_.symbol).zip(normalizedWeights.toArray).toMap
+    Portfolio(weightMap, expectedReturn, risk)
 
   /**
-   * Generate the entire efficient frontier
+   * Generate the efficient frontier
    *
    * @param points Number of points to calculate
    * @return Sequence of portfolios along the efficient frontier
@@ -105,7 +107,7 @@ class PortfolioOptimizer(
    * @return The minimum variance portfolio
    */
   def minimumVariancePortfolio(): Portfolio =
-  // Use a very high risk aversion to approximate minimum variance
+  // High risk aversion -> minimum variance approx
     efficientPortfolio(1000.0)
 
   /**

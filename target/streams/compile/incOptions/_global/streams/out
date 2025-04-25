@@ -1,17 +1,10 @@
-[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /Users/danilmerinov/Desktop/github/portfolio-optimization/target/scala-3.6.4/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /Users/danilmerinov/Desktop/github/portfolio-optimization/target/scala-3.0.0/classes.bak[0m
 [0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Hello.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Hello$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Hello.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Hello$.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Hello.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Hello$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Hello.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Hello$.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Hello.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Hello$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Hello.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Hello$.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /Users/danilmerinov/Desktop/github/portfolio-optimization/target/scala-3.6.4/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /Users/danilmerinov/Desktop/github/portfolio-optimization/target/scala-3.0.0/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mRolling back changes to class files.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0mRestoring class files: [0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /Users/danilmerinov/Desktop/github/portfolio-optimization/target/scala-3.0.0/classes.bak[0m

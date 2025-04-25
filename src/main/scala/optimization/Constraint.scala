@@ -7,7 +7,7 @@ import breeze.linalg.DenseVector
  */
 trait Constraint:
   /**
-   * Determines if the weight vector satisfies the constraint
+   * Weight vector satisfies the constraint?
    *
    * @param weights The weights to check
    * @return true if the constraint is satisfied
@@ -41,32 +41,7 @@ case class SumToOneConstraint() extends Constraint:
     (sum - 1.0).abs < 0.0001
 
 /**
- * Constraint that enforces sector allocation limits
- *
- * @param assetSectors Map of asset indices to their sectors
- * @param sectorLimits Map of sectors to their (min, max) allocation limits
- */
-case class SectorConstraint(
-                             assetSectors: Map[Int, String],
-                             sectorLimits: Map[String, (Double, Double)]
-                           ) extends Constraint:
-  override def isSatisfied(weights: DenseVector[Double]): Boolean =
-
-    val sectorWeights = scala.collection.mutable.Map[String, Double]().withDefaultValue(0.0)
-
-    for (i <- 0 until weights.length) {
-      val sector = assetSectors.getOrElse(i, "Unknown")
-      sectorWeights(sector) += weights(i)
-    }
-
-
-    sectorLimits.forall { case (sector, (min, max)) =>
-      val weight = sectorWeights(sector)
-      weight >= min && weight <= max
-    }
-
-/**
- * Container
+ * Collection of multiple constraints
  *
  * @param constraints List of constraints
  */
